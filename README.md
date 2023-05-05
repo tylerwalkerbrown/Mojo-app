@@ -31,7 +31,7 @@ People that go with the natural program churn on average at around 26% compared 
 
 ### Production Analysis
 
-On average a spray tech makes around $20 per hour. WIth that number we esitimated the amount of return you get per minute depending on the amount billed and the duration of time an employee spends at a property. We found out that on average the comapny will be profiting 4.5 dollars per minute on any given property. Here we have a splot of all the unique squarefottages that we cover. You can see the 7500 sqft gives us the worst margins. I did do an anaomly detection on this data so I will assusme that 175K sqft properties consisted of some innaccuracte data due to human error.
+On average a spray tech makes around $20 per hour. With that number we estimated the amount of return you get per minute depending on the amount billed and the duration of time an employee spends at a property. We found out that on average the comapny will be profiting 4.5 dollars per minute on any given property. Here we have a splot of all the unique square footages that we cover. You can see the 7500 sqft gives us the worst margins. I did do an anaomly detection on this data so I will assusme that 175K sqft properties consisted of some innaccuracte data due to human error.
 
 ![image](https://user-images.githubusercontent.com/94020684/235325711-4e04ea57-ab17-4a14-aa65-a8e19c42996c.png)
 
