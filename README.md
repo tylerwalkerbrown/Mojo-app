@@ -53,21 +53,21 @@ After year one the company growth was 904.51% then for 2021 to 2022 Mojo experie
 
 
 
- 
+ # Clustering Cost Savings
 
 Once I had a rough estimate of my clusters I had to figure out the total distances between points within the clusters. I also had to factor in the distance it takes to get to the given clusters to start and end the day. 
 
 
 
 
-Total Distance Formula:
+### Total Distance Formula:
 
  
 Taking in the total distance formula I was able to loop through each given cluster and calculate the distance and using haversine I did each cluster distance from the base of where each tech will depart from. This gave me a basis of distance where I could go in and feature engineer the amount of time that would be spent in the van and the cost of the employee drive time adding in the duration of given properties to get the total route time as well as cost. Giving me this table of aggregates:
 
  
 
-Proof of Concept Proof of Value (Cluster Model Results)
+### Proof of Concept Proof of Value (Cluster Model Results)
 
 To compare both models I had to group by employee and data to get the given (cluster or ) route for the day. Once I had that data I just had to run it though the model getting rid of the kmeans clusters because we’re looking at the old predefined routes. After I had that I took in my suspected routes to see how they compare (based on profit margins). Below is a frequency distribution of 34 randomly sampled days in the historic data and the 34 clusters that I created. You can see that the distribution for the randomly selected days is very spread out compared to the calculated routes. 
 
