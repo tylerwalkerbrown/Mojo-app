@@ -57,21 +57,25 @@ After year one the company growth was 904.51% then for 2021 to 2022 Mojo experie
 
 Once I had a rough estimate of my clusters I had to figure out the total distances between points within the clusters. I also had to factor in the distance it takes to get to the given clusters to start and end the day. 
 
+![image](https://user-images.githubusercontent.com/94020684/236677841-b63cfa93-26ce-4e28-97d0-20ebfe6839af.png)
 
 
 
 ### Total Distance Formula:
 
- 
+ ![image](https://user-images.githubusercontent.com/94020684/236677846-1066f709-c7cb-4b69-a56a-ff2dc0857329.png)
+
 Taking in the total distance formula I was able to loop through each given cluster and calculate the distance and using haversine I did each cluster distance from the base of where each tech will depart from. This gave me a basis of distance where I could go in and feature engineer the amount of time that would be spent in the van and the cost of the employee drive time adding in the duration of given properties to get the total route time as well as cost. Giving me this table of aggregates:
 
- 
+ ![image](https://user-images.githubusercontent.com/94020684/236677852-1be35951-4f66-4cfc-b109-0e57fc4a5adf.png)
+
 
 ### Proof of Concept Proof of Value (Cluster Model Results)
 
 To compare both models I had to group by employee and data to get the given (cluster or ) route for the day. Once I had that data I just had to run it though the model getting rid of the kmeans clusters because we’re looking at the old predefined routes. After I had that I took in my suspected routes to see how they compare (based on profit margins). Below is a frequency distribution of 34 randomly sampled days in the historic data and the 34 clusters that I created. You can see that the distribution for the randomly selected days is very spread out compared to the calculated routes. 
 
- 
+ ![image](https://user-images.githubusercontent.com/94020684/236677862-d2afa64e-7656-43ac-b072-d94282320f12.png)
+
 
 The average margins for the population of historical data is around 63% compared to the average cluster retuning a 84% margin across the board. This change in routes will yield a 33% boost in production compared to human clustering for routes. 
 
